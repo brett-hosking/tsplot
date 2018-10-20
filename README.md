@@ -1,13 +1,9 @@
 # timsie
 
 ## Setup 
-### Install PIP 
-    sudo apt-get install python3-pip
-
-### It is recommended that you create a virtual environment
+### It is recommended that you install pip and create a virtual environment  
+    sudo apt-get install python3-pip 
     sudo pip3 install virtualenv 
-
-### Create a virtual environment for timsie 
     virtualenv timsie_env
 
 ### Activate the environment 
