@@ -1,2 +1,4 @@
-import timsie.time
-import timsie.plot
+import time
+import plot
+import data
+import filters
