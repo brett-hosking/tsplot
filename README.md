@@ -1,23 +1,14 @@
-# timsie
+# tsplot
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://octopress.mit-license.org) ![Version](https://img.shields.io/badge/version-0.0.2-orange.svg) ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-green.svg) 
 
-## Documentation 
+tsplot is a Python package, built on matplotlib, for plotting time series data 
 
+## Installation
+Full instructions can be found <a href="https://github.com/brett-hosking/tsplot/blob/master/docs/install.md" target="_blank">here </a>
 
-## Setup 
-### it is recommended that you install pip and create a virtual environment  
-    sudo apt-get install python3-pip 
-    sudo pip3 install virtualenv 
-    virtualenv timsie_env
+### Install Package using **pip**
+    pip install tsplot 
 
-### activate the environment 
-    source timsie_env/bin/activate
+## Usage
+Click <a href="https://github.com/brett-hosking/tsplot/blob/master/docs/examples.md" target="_blank">here </a> for usage examples
 
-### get timsie 
-    git clone https://github.com/brett-hosking/timsie.git
-    cd timsie 
-
-### install timsie requirements 
-    pip install -r requirements.txt
-
-### install timsie 
-    pip install .
