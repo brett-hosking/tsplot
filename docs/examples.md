@@ -4,3 +4,5 @@
 
 ### Notebooks
 
+* Sea ice extent 
+    * <a href="http://nbviewer.ipython.org/github/brett-hosking/tsplot/blob/master/examples/notebooks/Plot Sea ice extent.ipynb" target="_blank">Plot sea ice extent</a> 
