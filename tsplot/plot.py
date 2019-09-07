@@ -4,7 +4,7 @@ import numpy as np # used for xpoints only
 
 class SeriesSub:
 
-    def __init__(self,xlabels_l1=[None,None],xlabels_l2=[None,None],xlabels_l3=[None,None],ycolor='k',sub1=3,sub2=1,figsize=(27, 12)):
+    def __init__(self,xlabels_l1=[None,None],xlabels_l2=[None,None],xlabels_l3=[None,None],ycolor='k',sub1=3,sub2=1,figsize=(27, 12),dpi=60):
         '''
             Initialise figure for plotting time series
 
@@ -23,7 +23,7 @@ class SeriesSub:
             None
 
         '''
-        self.fig, self.ax 	= plt.subplots(sub1,sub2,figsize=figsize, dpi=60, facecolor='w', edgecolor='k')
+        self.fig, self.ax 	= plt.subplots(sub1,sub2,figsize=figsize, dpi=dpi, facecolor='w', edgecolor='k')
         self.xlabels_l1      = xlabels_l1
         self.xlabels_l2      = xlabels_l2
         self.xlabels_l3      = xlabels_l3
@@ -173,7 +173,7 @@ class SeriesSub:
 
 class Series:
 
-    def __init__(self,xlabels_l1=[None,None],xlabels_l2=[None,None],xlabels_l3=[None,None],ylabel=None,ycolor='k'):
+    def __init__(self,xlabels_l1=[None,None],xlabels_l2=[None,None],xlabels_l3=[None,None],ylabel=None,ycolor='k',figsize=(27,9),dpi=60):
         '''
             Initialise figure for plotting time series
 
@@ -192,7 +192,7 @@ class Series:
             None
 
         '''
-        self.fig, self.ax 	= plt.subplots(figsize=(27, 9), dpi=60, facecolor='w', edgecolor='k')
+        self.fig, self.ax 	= plt.subplots(figsize=figsize, dpi=dpi, facecolor='w', edgecolor='k')
 
         if not None in xlabels_l1:
             self.ax.set_xticks(xlabels_l1[1])
